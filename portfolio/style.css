@@ -1,0 +1,52 @@
+/* Reset and basic styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    margin: 20px;
+    padding: 0;
+    color: #333;
+    
+  }
+  
+  h1 {
+    color: #1e90ff;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    
+  }
+  
+  p {
+    font-size: 1.2em;
+    line-height: 1.6;
+  }
+  
+  img {
+    margin: 5px 0;
+    border-radius: 8px;
+    width: 400px;
+    height: 300px;
+  }
+  
+  a {
+    color: #ff4500;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #218838;
+  }
+  
