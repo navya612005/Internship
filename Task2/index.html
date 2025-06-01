@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact & To-Do App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <nav class="navbar" > Web Application</nav>
+
+    <!-- Contact Form Section -->
+    <section id="formSection" class="center-box">
+      <div class="form-card">
+        <h2>Contact Form</h2>
+        <form id="contactForm">
+          <input type="text" id="name" placeholder="Your Name" required />
+          <input type="email" id="email" placeholder="Your Email" required />
+          <button type="submit">Submit</button>
+          <p id="errorMsg"></p>
+        </form>
+      </div>
+    </section>
+
+    <!-- To-Do List Section -->
+    <section id="todoSection" style="display: none;">
+      <div class="todo-card">
+        <h2>To-Do List</h2>
+        <div class="input-group">
+          <input type="text" id="taskInput" placeholder="Enter a new task" />
+          <button onclick="addTask()">Add</button>
+        </div>
+        <ul id="taskList"></ul>
+      </div>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
